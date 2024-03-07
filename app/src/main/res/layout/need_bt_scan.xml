@@ -1,0 +1,34 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bt_scan_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_scan_ble" />
+
+    <TextView
+        android:id="@+id/bt_scan_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_scan_icon"
+        android:layout_margin="10dp"
+        android:text="—— 点击按钮开始扫描蓝牙设备 ——"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_scan_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bt_scan_text"
+        android:text="扫描设备"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

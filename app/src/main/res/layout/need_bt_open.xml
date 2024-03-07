@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bt_open_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_close_ble"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/bt_open_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_open_icon"
+        android:layout_margin="10dp"
+        android:text="—— 应用需要打开蓝牙 ——"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_open_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bt_open_text"
+        android:text="开启蓝牙"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

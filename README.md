@@ -1,2 +1,3 @@
-硕士毕业论文里低功耗蓝牙APP代码
-支持Android 12版本
+## 低功耗蓝牙APP，支持Android 12版本
+#### 开发软件：Android Studio
+#### 开发语言：Java 8
